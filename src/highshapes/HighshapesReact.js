@@ -14,7 +14,7 @@ const HighshapesReact = (props) => {
                 </div>
             );
         } else {
-            const msg = `Plugin Not Found For Type: ${options.type}`;
+            const msg = `Plugin Not Found For Type: ${options.shape.type}`;
             console.warn(msg);
             return null;
         }
