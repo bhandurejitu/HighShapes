@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.97648501.css","mappings":"AACA,WAEI,kBAAmB,CADnB,YAGJ,CAEA,0BAHI,YAKJ","sources":["highshapes/style.css"],"sourcesContent":["\n.container {\n    display: flex;\n    align-items: center;\n    padding: 10px;\n}\n\n.container div {\n    padding: 10px;\n}"],"names":[],"sourceRoot":""}

@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/HighShapes/static/css/main.97648501.css",
+    "main.js": "/HighShapes/static/js/main.1f0dae68.js",
+    "index.html": "/HighShapes/index.html",
+    "main.97648501.css.map": "/HighShapes/static/css/main.97648501.css.map",
+    "main.1f0dae68.js.map": "/HighShapes/static/js/main.1f0dae68.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.97648501.css",
+    "static/js/main.1f0dae68.js"
+  ]
+}
