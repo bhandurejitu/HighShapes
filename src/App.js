@@ -69,11 +69,11 @@ function App() {
 
     return (
         <>
-            <HighshapesReact Highshapes={Highshapes} options={optionRectangle} />
-            <HighshapesReact Highshapes={Highshapes} options={optionCircle} />
-            <HighshapesReact Highshapes={Highshapes} options={optionLine} />
-            <HighshapesReact Highshapes={Highshapes} options={optionTriangle} />
-            <HighshapesReact Highshapes={Highshapes} options={optionEllipse} />
+            <HighshapesReact options={optionRectangle} />
+            <HighshapesReact options={optionCircle} />
+            <HighshapesReact options={optionLine} />
+            <HighshapesReact options={optionTriangle} />
+            <HighshapesReact options={optionEllipse} />
         </>
     );
 }

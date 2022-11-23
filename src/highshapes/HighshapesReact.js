@@ -1,11 +1,12 @@
 import './style.css';
 import React from "react";
 import { formatOption } from './utils';
+import Highshapes from './Highshapes';
 
 const HighshapesReact = (props) => {
     const options = formatOption(props.options);
     const renderContent = () => {
-        const shapeContent = props.Highshapes[options.shape.type] ? props.Highshapes[options.shape.type](options) : null;
+        const shapeContent = Highshapes[options.shape.type] ? Highshapes[options.shape.type](options) : null;
         if(shapeContent) {
             return (
                 <div className={'container'}>
